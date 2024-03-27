@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="xz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <p class="svitch" id="svitch" onclick="svitch()"><i class="fa-solid fa-toggle-off"></i></p>
+    </header>
+    <main>
+        <div class="calculator">
+            <div class="calhead">
+                <p class="ans" id="ans">0</p>
+            </div>
+            <P class="gamosaxuleba" id="gamosaxuleba">0</P>
+            <div class="calbts flex">
+                <p  onclick="ac()"  class="btn flex nacari">AC</p>
+                <p  onclick="pm()"  class="btn flex nacari">&#177;</p>
+                <p onclick="op(this)" class="btn flex nacari">&#37;</p>
+                <p onclick="op(this)" class="btn flex stafilo">&#247;</p>
+                <p onclick="calculate(this)" class="calculate  btn flex">7</p>
+                <p onclick="calculate(this)" class="calculate  btn flex">8</p>
+                <p onclick="calculate(this)" class="calculate  btn flex">9</p>
+                <p onclick="op(this)" class="btn flex stafilo">&#8727;</p>
+                <p onclick="calculate(this)" class="calculate btn flex">4</p>
+                <p onclick="calculate(this)" class="calculate btn flex">5</p>
+                <p onclick="calculate(this)" class="calculate btn flex">6</p>
+                <p onclick="op(this)" class="btn flex stafilo">&#8722;</p>
+                <p onclick="calculate(this)" class="calculate btn flex">1</p>
+                <p onclick="calculate(this)" class="calculate btn flex">2</p>
+                <p onclick="calculate(this)" class="calculate btn flex">3</p>
+                <p onclick="op(this)" class="btn flex stafilo">&#43;</p>
+                <p onclick="calculate(this)" class="calculate btn flex zero">0</p>
+                <p onclick="op(this)" class="btn flex">&#44;</p>
+                <p class="btn flex stafilo">&#61;</p>
+            </div>
+
+        </div>
+    </main>
+    <footer></footer>
+
+
+
+    <script src="https://kit.fontawesome.com/389a230baf.js"></script>
+
+    <script src="jvs/switch.js"></script>
+    <script src="jvs/calc.js"></script>
+    <script src="jvs/operator.js"></script>
+    <script src="jvs/AC.js"></script>
+    <script src="jvs/pm.js"></script>
+</body>
+
+</html>

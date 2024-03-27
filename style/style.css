@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Protest Revolution", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:root {
+    --bawia: #ffffff8c;
+    --nacari: #e5e5e5;
+    --nacrisferi: #808080;
+    --stafilo: #f09536;
+    --surati: url(../img/sunn.jpg) ;
+}
+
+body{
+    background-image: var(--surati);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s;
+}
+
+.svitch{
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: var(--nacrisferi);
+}
+
+.calculator {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--bawia);
+    border: 1px solid #f5f5f5;
+    margin: 100px auto;
+}
+
+.calhead {
+    padding: 70px 0 0 0;
+}
+
+.ans {
+    text-align: right;
+    font-size: 34px;
+}
+
+.gamosaxuleba{
+    text-align: right;
+}
+
+.calbts.flex {
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    background-color: var(--nacari);
+    border-radius: 50%;
+    margin-top: 20px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.btn.flex {
+    justify-content: center;
+}
+
+.btn:hover{
+  background-color: #f3f3f3;
+}
+
+.nacari{
+    background-color: var(--nacrisferi);
+    color: var(--bawia);
+}
+
+.nacari:hover{
+    background-color: #a5a5a5;
+}
+
+.stafilo{
+    background-color: var(--stafilo);
+}
+
+.stafilo:hover{
+background-color: #fbb66d;
+}
+
+.zero {
+    width: 180px;
+    border-radius: 80px;
+    padding-left: 30px;
+}
+
+.zero.flex {
+    justify-content: flex-start;
+}
